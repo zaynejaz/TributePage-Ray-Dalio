@@ -1,0 +1,131 @@
+html,
+
+body{
+    background: #303030;
+}
+
+#main {
+    background-color: #e4e4e4;
+    padding: 20px 10px 30px 10px;
+    margin: 5% 15% 5px 15%;
+    text-align: center;
+    border-radius: none;
+    font-family: 'Montserrat';
+}
+
+#title {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: lighter;
+    animation: title 4s ;
+    transition: all .8s ease-in-out;
+    max-width: 200px;
+    margin: 20px auto;
+  }
+  @keyframes title{
+    from{
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+  }
+#title:hover{
+    transform: scale(1.2); 
+}
+
+#subtitle {
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    color: #303030;
+    margin: 0px 0% 20px 0%;
+}
+
+#img-div {
+    background-color: #cccccc;
+    padding: 0px;
+    margin: 5px 20% 20px 20%;
+    border: none;
+  overflow: hidden;
+  }
+#image{
+    width: 100%;
+    height: auto;
+    max-width: 900px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    transition: all .8s ease-in-out;
+}
+#image:hover{
+    transform: scale(1.1); 
+}
+#img-caption{
+    text-align: center;
+    padding: 5px;
+}
+
+#tribute-info {
+    padding: 0px 100px 0px 100px;
+    text-align: justify ;
+    
+}
+
+#headline{
+    font-size: 16px;
+    font-weight: lighter;
+}
+
+ul {
+    max-width:550px;
+    margin:0 auto;
+    text-align:left;
+    font-size: 14px;
+  }
+
+.sublist {
+    color: #808080;
+    font-style: italic;
+    text-align: left;
+    margin: 5px 0px 15px 0px;
+}
+
+blockquote {
+    font-family: sans-serif;
+    font-size: 18px;
+    color: #808080;
+    font-style: italic;
+    text-align: center;
+    transition: all 1s ease-in-out;
+    max-width: 400px;
+    margin: 20px auto;
+}
+blockquote:hover{
+    transform: scale(1.2); 
+    color: #000000;
+}
+
+#tribute-link{
+    text-decoration: none;
+    font-weight: bolder;
+    text-decoration: underline;
+    color: #808080;
+    transition: .8s ease-in-out;
+}
+#tribute-link:hover{
+    color: #0099ff;
+    text-decoration: none;
+}
+
+#tribute-link-item{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bolder;
+    color: #808080;
+    transition: 1.2s ease-in-out;
+}
+#tribute-link-item:hover{
+    color: #c40000;
+    font-weight: bolder;
+}
