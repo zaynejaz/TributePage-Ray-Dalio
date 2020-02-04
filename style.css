@@ -129,3 +129,17 @@ blockquote:hover{
     color: #c40000;
     font-weight: bolder;
 }
+
+#footer {
+    font-family: 'Montserrat', sans-serif;
+    color: #303030;
+    font-size: 12;
+    margin: 50px 0px 0px 0px;
+    padding: 20px 10px 10px 10px;
+    background-color: #bdbdbd;
+    text-align: center;
+  }
+.ft-creator{
+    color: #0073c0;
+    text-decoration: none;
+}
